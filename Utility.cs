@@ -12,7 +12,6 @@ using System.Text;
 using Newtonsoft.Json.Linq;
 using System.Drawing;
 
-
 namespace MatchZy
 {
     public partial class MatchZy

@@ -6,7 +6,6 @@ using CounterStrikeSharp.API.Core.Attributes.Registration;
 using CounterStrikeSharp.API.Modules.Timers;
 using System.Text.Json;
 
-
 namespace MatchZy
 {
     public partial class MatchZy

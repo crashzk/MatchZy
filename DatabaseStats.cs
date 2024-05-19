@@ -12,8 +12,6 @@ using CsvHelper;
 using CsvHelper.Configuration;
 using MySqlConnector;
 
-
-
 namespace MatchZy
 {
     public class Database
