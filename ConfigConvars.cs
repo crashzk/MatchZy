@@ -9,7 +9,6 @@ namespace MatchZy
 {
     public partial class MatchZy
     {
-
         public FakeConVar<bool> smokeColorEnabled = new("matchzy_smoke_color_enabled", "Whether player-specific smoke color is enabled or not. Default: false", false);
         public FakeConVar<bool> techPauseEnabled = new("matchzy_enable_tech_pause", "Whether .tech command is enabled or not. Default: true", true);
         public FakeConVar<int> techPauseDuration  = new("matchzy_tech_pause_duration", "Tech pause duration in seconds. Default value: 300", 300);
@@ -232,7 +231,6 @@ namespace MatchZy
             {
                 autoStartMode = autoStartModeValue;
             }
-
         }
 
         [ConsoleCommand("matchzy_allow_force_ready", "Whether force ready using !forceready is enabled or not (Currently works in Match Setup only). Default value: True")]

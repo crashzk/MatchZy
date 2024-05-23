@@ -8,12 +8,10 @@ using CounterStrikeSharp.API.Modules.Timers;
 using CounterStrikeSharp.API.Modules.Utils;
 using System.Text.Json;
 
-
 namespace MatchZy
 {
     public class Position
     {
-
         public Vector PlayerPosition { get; private set; }
         public QAngle PlayerAngle { get; private set; }
         public Position(Vector playerPosition, QAngle playerAngle)

@@ -9,7 +9,6 @@ using Newtonsoft.Json.Linq;
 
 namespace MatchZy
 {
-
     public partial class MatchZy
     {
         public MatchConfig matchConfig = new();
@@ -483,8 +482,7 @@ namespace MatchZy
             if (jsonDataObject["veto_mode"] != null)
             {
                 matchConfig.MapBanOrder = jsonDataObject["veto_mode"]!.ToObject<List<string>>()!;
-            }
-            
+            }            
         }
 
         public void HandleTeamNameChangeCommand(CCSPlayerController? player, string teamName, int teamNum) {

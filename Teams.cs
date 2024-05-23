@@ -7,7 +7,6 @@ using Newtonsoft.Json.Linq;
 
 namespace MatchZy
 {
-
     public class Team 
     {
         public string id = "";

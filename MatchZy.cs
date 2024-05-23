@@ -5,7 +5,6 @@ using CounterStrikeSharp.API.Modules.Utils;
 using CounterStrikeSharp.API.Core.Attributes;
 using CounterStrikeSharp.API.Modules.Timers;
 
-
 namespace MatchZy
 {
     [MinimumApiVersion(227)]
@@ -89,6 +88,7 @@ namespace MatchZy
 
             // This sets default config ConVars
             Server.ExecuteCommand("execifexists MatchZy/config.cfg");
+            Server.ExecuteCommand("execifexists gamemode_competitive_server.cfg");
 
             teamSides[matchzyTeam1] = "CT";
             teamSides[matchzyTeam2] = "TERRORIST";

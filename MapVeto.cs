@@ -235,7 +235,6 @@ namespace MatchZy
             }
         }
 
-
         public bool PickMap(string mapName, int team) {
             (bool mapRemoved, string mapRemovedName) = RemoveMapFromMapPool(mapName);
 
@@ -366,7 +365,6 @@ namespace MatchZy
             isVeto = false;
             StartWarmup();
         }
-
 
         public int GetTeamCaptain(string team)
         {
@@ -646,7 +644,6 @@ namespace MatchZy
                     break;
             }
         }
-
     }
 }
 

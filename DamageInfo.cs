@@ -4,10 +4,8 @@ using CounterStrikeSharp.API.Modules.Utils;
 
 namespace MatchZy
 {
-
     public partial class MatchZy
     {
-
         private void InitPlayerDamageInfo()
         {
             foreach (var key in playerData.Keys) {

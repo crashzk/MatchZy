@@ -1,7 +1,6 @@
 using System.Text;
 using System.Text.Json;
 
-
 namespace MatchZy
 {
     public partial class MatchZy

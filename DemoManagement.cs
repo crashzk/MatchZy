@@ -23,7 +23,6 @@ namespace MatchZy
 
         public void StartDemoRecording()
         {
-
             string demoFileName = FormatDemoName();
             try
             {
@@ -48,7 +47,6 @@ namespace MatchZy
                 Server.ExecuteCommand($"tv_record {demoFileName}");
                 isDemoRecording = true;
             }
-
         }
 
         public void StopDemoRecording(float delay, string activeDemoFile, long liveMatchId, int currentMapNumber)

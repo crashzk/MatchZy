@@ -1,10 +1,12 @@
 {
     "matchzy.ready.markedready": "Вас отметили как готового.",
     "matchzy.ready.markedunready": "Вас отметили как НЕ готового.",
+	
     "matchzy.knife.sidedecisionpending": "{green}{0}{default} выиграла ножевой раунд. Ждём, пока они введут {green}.stay{default} или {green}.switch{default}.",
     "matchzy.knife.decidedtostay": "{green}{0}{default} решили остаться.",
     "matchzy.knife.decidedtoswitch": "{green}{0}{default} решили сменить стороны.",
-    "matchzy.pause.pausedthematch": "{green}{0}{default} приостановила матч. Введите .unpause, чтобы возобновить матч.",
+    
+	"matchzy.pause.pausedthematch": "{green}{0}{default} приостановила матч. Введите .unpause, чтобы возобновить матч.",
     "matchzy.pause.teamsunpausedthematch": "Обе команды сняли паузу, возобновляю матч!",
     "matchzy.pause.teamwantstounpause": "{green}{0}{default} хочет возобновить матч. {green}{1}{default}, пожалуйста, напишите !unpause для подтверждения.",
     "matchzy.pause.adminpausedthematch": "{green}Администратор{default} приостановил матч!",
@@ -17,9 +19,11 @@
     "matchzy.pause.duringhalftime": "Вы не можете использовать эту команду во время смены сторон.",
     "matchzy.pause.matchended": "Вы не можете использовать эту команду после окончания игры.",
     "matchzy.pause.tacticaltimeout": "Вы не можете использовать эту команду, когда активен тактический перерыв.",
-    "matchzy.restore.teamwantstorestore": "{green}{0}{default} хочет восстановить игру до начала текущего раунда. {green}{1}{default}, пожалуйста, напишите !stop для подтверждения.",
+    
+	"matchzy.restore.teamwantstorestore": "{green}{0}{default} хочет восстановить игру до начала текущего раунда. {green}{1}{default}, пожалуйста, напишите !stop для подтверждения.",
     "matchzy.restore.restoredsuccessfully": "Резервная копия успешно восстановлена: {0}",
-    "matchzy.backup.stopduringhalftime": "Вы не можете использовать эту команду во время смены сторон.",
+    
+	"matchzy.backup.stopduringhalftime": "Вы не можете использовать эту команду во время смены сторон.",
     "matchzy.backup.stopmatchended": "Вы не можете использовать эту команду после окончания игры.",
     "matchzy.backup.stoptacticaltimeout": "Вы не можете использовать эту команду, когда активен тактический перерыв.",
     "matchzy.backup.restoreinvalidvalue": "Недопустимое значение для команды restore. Пожалуйста, укажите действительное неотрицательное число. Использование: !restore <раунд>",
@@ -27,8 +31,10 @@
     "matchzy.backup.restorematchended": "Вы не можете использовать эту команду после окончания игры.",
     "matchzy.backup.restoretacticaltimeout": "Вы не можете использовать эту команду, когда активен тактический перерыв.",
     "matchzy.backup.restoredoesntexist": "Резервная копия {0} не существует, пожалуйста, убедитесь, что вы восстанавливаете действительную резервную копию.",
-    "matchzy.cvars.invalidvalue": "Недопустимое значение для matchzy_chat_messages_timer_delay. Пожалуйста, укажите действительное неотрицательное число.",
-    "matchzy.cc.enabled": "{green}Включен{default}",
+    
+	"matchzy.cvars.invalidvalue": "Недопустимое значение для matchzy_chat_messages_timer_delay. Пожалуйста, укажите действительное неотрицательное число.",
+    
+	"matchzy.cc.enabled": "{green}Включен{default}",
     "matchzy.cc.disabled": "{red}Выключен{default}",
     "matchzy.cc.usage": "Использование: {0}",
     "matchzy.cc.invalidmap": "Неверное название карты!",
@@ -56,14 +62,16 @@
     "matchzy.cc.skipveto": "Фаза вето отменена!",
     "matchzy.cc.matchpaused": "Матч уже на паузе, невозможно начать тактический перерыв!",
     "matchzy.cc.nomorepauses": "У вас не осталось тактических перерывов!",
-    "matchzy.mm.matchisalreadysetup": "[LoadMatch] Матч уже настроен с идентификатором: {green}{0}{default}, нельзя загрузить новый матч!",
+    
+	"matchzy.mm.matchisalreadysetup": "[LoadMatch] Матч уже настроен с идентификатором: {green}{0}{default}, нельзя загрузить новый матч!",
     "matchzy.mm.filedoesntexist": "[LoadMatch] Указанный файл не существует! Использование: matchzy_loadmatch <имя_файла>",
     "matchzy.mm.matchloadfailed": "Загрузка матча не удалась! Сброс текущего матча",
     "matchzy.mm.get5matchisalreadysetup": "[LoadMatchDataCommand] Матч уже настроен с идентификатором: {0}, нельзя загрузить новый матч!",
     "matchzy.mm.invalidurl": "[LoadMatchDataCommand] Недопустимый URL: {green}{0}{default}. Пожалуйста, укажите действительный URL для загрузки матча!",
     "matchzy.mm.httprequestfailed": "[LoadMatchFromURL] HTTP-запрос не выполнен с кодом состояния: {0}",
     "matchzy.mm.teamcannotbechanged": "Названия команд не могут быть изменены после начала матча!",
-    "matchzy.pm.movedtospawn": "Перемещён на точку возрождения: {0}",
+    
+	"matchzy.pm.movedtospawn": "Перемещён на точку возрождения: {0}",
     "matchzy.pm.negativenumber": "Недопустимое значение для команды {command}. Пожалуйста, укажите действительное неотрицательное число. Использование: !{command} <число>",
     "matchzy.pm.lineupissaved": "Расстановка уже существует! Пожалуйста, используйте другое имя или используйте .delnade <граната>",
     "matchzy.pm.lineupsavedsucces": "Расстановка {green}{0}{default} успешно сохранена!",
@@ -97,10 +105,13 @@
     "matchzy.pm.loadnadenotfound": "Граната не найдена! Использование: .loadnade <имя>",
     "matchzy.pm.backtonumber": "Использование: !back <число> (Вы бросили до сих пор {green}{0}{default} гранат)",
     "matchzy.pm.throwindextonumber": "Использование: !throwindex <число> (Вы бросили до сих пор {green}{0}{default} гранат)",
-    "matchzy.rs.minreadyplayers": "На сервере должно быть как минимум {green}{0}{default} игрок(а), чтобы подтвердить готовность.",
+   
+   "matchzy.rs.minreadyplayers": "На сервере должно быть как минимум {green}{0}{default} игрок(а), чтобы подтвердить готовность.",
     "matchzy.rs.forcereadiedby": "Ваша команда была принудительно подтверждена готовой {green}{0}{default}",
-    "matchzy.sleep.sleepwhenmatchstared": "Режим сна не может быть активирован, когда матч уже начался!",
-    "matchzy.utility.unreadyplayers": "Не готовые игроки: {0}. Пожалуйста, введите .ready, чтобы подтвердить готовность! {1}",
+    
+	"matchzy.sleep.sleepwhenmatchstared": "Режим сна не может быть активирован, когда матч уже начался!",
+    
+	"matchzy.utility.unreadyplayers": "Не готовые игроки: {0}. Пожалуйста, введите .ready, чтобы подтвердить готовность! {1}",
     "matchzy.utility.readyplayers": "Текущие готовые игроки: {green}{0}{default}",
     "matchzy.utility.minimumreadyplayers": "Необходимый минимум готовых игроков {green}{0}{default}, текущие готовые игроки: {green}{1}{default}",
     "matchzy.utility.matchstarted": "Карта не может быть изменена после начала матча!",
@@ -112,7 +123,8 @@
     "matchzy.utility.matchended": "Вы не можете использовать эту команду после окончания игры.",
     "matchzy.utility.tacticaltimeout": "Вы не можете использовать эту команду, когда активен тактический перерыв.",
     "matchzy.utility.dontpermission": "У вас нет разрешения на использование этой команды!",
-    "matchzy.pracc.smoke": "Дымовая граната, брошенная {red}{0}{default}, взорвалась через {green}{1}{default}с",
+    
+	"matchzy.pracc.smoke": "Дымовая граната, брошенная {red}{0}{default}, взорвалась через {green}{1}{default}с",
     "matchzy.pracc.flash": "Светошумовая граната, брошенная {red}{0}{default}, взорвалась через {green}{1}{default}с",
     "matchzy.pracc.grenade": "Осколочная граната, брошенная {red}{0}{default}, взорвалась через {green}{1}{default}с",
     "matchzy.pracc.molotov": "Коктейль Молотова, брошенный {red}{0}{default}, взорвался через {green}{1}{default}с",

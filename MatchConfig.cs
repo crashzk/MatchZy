@@ -2,7 +2,6 @@ using Newtonsoft.Json.Linq;
 
 namespace MatchZy
 {
-
     public class MatchConfig
     {
         public List<string> Maplist { get; set; } = new List<string>();
