@@ -10,12 +10,9 @@ namespace MatchZy
     [MinimumApiVersion(227)]
     public partial class MatchZy : BasePlugin
     {
-
         public override string ModuleName => "MatchZy";
         public override string ModuleVersion => "0.7.11";
-
         public override string ModuleAuthor => "WD- (https://github.com/shobhit-pathak/)";
-
         public override string ModuleDescription => "A plugin for running and managing CS2 practice/pugs/scrims/matches!";
 
         public string chatPrefix = $"[{ChatColors.Green}MatchZy{ChatColors.Default}]";
@@ -206,7 +203,7 @@ namespace MatchZy
             RegisterListener<Listeners.OnClientDisconnectPost>(playerSlot => { 
                // May not be required, but just to be on safe side so that player data is properly updated in dictionaries
                // Update: Commenting the below function as it was being called multiple times on map change.
-                // UpdatePlayersMap();
+               // UpdatePlayersMap();
             });
             RegisterListener<Listeners.OnEntitySpawned>(OnEntitySpawnedHandler);
 
