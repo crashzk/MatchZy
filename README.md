@@ -24,7 +24,6 @@ MatchZy is a plugin for CS2 (Counter Strike 2) for running and managing practice
 * Provides easy configuration
 * And much more!!
 
-
 ## Documentation
 
 ## [shobhit-pathak.github.io/MatchZy/](https://shobhit-pathak.github.io/MatchZy/)
